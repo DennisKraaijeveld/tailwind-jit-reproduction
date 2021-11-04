@@ -1,0 +1,30 @@
+{
+  "name": "gatsby-theme-tailwind-workspaces",
+  "version": "1.0.0",
+  "main": "gatsby-config.js",
+  "license": "MIT",
+  "scripts": {
+    "develop": "gatsby develop",
+    "build": "gatsby build",
+    "clean": "gatsby clean"
+  },
+  "peerDependencies": {
+    "gatsby": "^4.1.0",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  },
+  "dependencies": {
+    "gatsby": "^4.1.0",
+    "gatsby-source-filesystem": "^4.1.0",
+    "gatsby-transformer-yaml": "^4.1.0",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.0",
+    "gatsby-plugin-postcss": "^5.1.0",
+    "postcss": "^8.3.11",
+    "postcss-import": "^14.0.2",
+    "tailwindcss": "^2.2.19"
+  }
+}

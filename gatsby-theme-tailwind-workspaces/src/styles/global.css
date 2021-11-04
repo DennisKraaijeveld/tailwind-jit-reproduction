@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+
+@layer components {
+    .test {
+        @apply text-white font-bold text-xs;
+    }
+}
+
+@tailwind utilities;
